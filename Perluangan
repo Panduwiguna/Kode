@@ -1,0 +1,42 @@
+public class Perluangan {
+    public static void main(String[] args) {
+        int c = 1;
+        int o = 0;
+        int d = 1;
+        int q = 1;
+        int e = 0;
+        int s = 1;
+        int t = 0;
+        
+        for (int i = 2; i <= 32; i+=2) {
+          System.out.print(i+" ");
+        }
+        System.out.println(" ");
+        
+        for (int b = 25; b >= -45; b-=5) {
+          System.out.print(b+" ");
+        }
+        System.out.println(" ");
+        
+        while (c <= 211) {
+          System.out.print(c+" ");
+          c+=o;
+          o+=2;
+        }
+        System.out.println(" ");
+        
+        while (d <= 121) {
+          System.out.print (d+" ");
+          d+=q;
+          q++;
+        }
+        System.out.println(" ");
+        
+        while (e <= 610) {
+          System.out.print(e+" ");
+          e+=s;
+          s = t;
+          t = e;
+        }
+    }
+}
